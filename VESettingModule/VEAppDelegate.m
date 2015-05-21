@@ -7,7 +7,6 @@
 //
 
 #import "VEAppDelegate.h"
-#import "VEViewController.h"
 
 @implementation VEAppDelegate
 
@@ -17,7 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Setting" bundle:[NSBundle mainBundle]];
-    VEViewController *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"SettingNavController"];
+    UINavigationController *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"SettingNavController"];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
     return YES;

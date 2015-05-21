@@ -21,7 +21,6 @@
 		BB9A22A11B0D8DC300AFE906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22A01B0D8DC300AFE906 /* main.m */; };
 		BB9A22A51B0D8DC300AFE906 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */; };
 		BB9A22A81B0D8DC300AFE906 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9A22A61B0D8DC300AFE906 /* Setting.storyboard */; };
-		BB9A22AB1B0D8DC300AFE906 /* VEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */; };
 		BB9A22AD1B0D8DC300AFE906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */; };
 		BB9A22B41B0D8DC300AFE906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22B31B0D8DC300AFE906 /* XCTest.framework */; };
 		BB9A22B51B0D8DC300AFE906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22941B0D8DC300AFE906 /* Foundation.framework */; };
@@ -69,8 +68,6 @@
 		BB9A22A31B0D8DC300AFE906 /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
 		BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
 		BB9A22A71B0D8DC300AFE906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Setting.storyboard; sourceTree = "<group>"; };
-		BB9A22A91B0D8DC300AFE906 /* VEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEViewController.h; sourceTree = "<group>"; };
-		BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEViewController.m; sourceTree = "<group>"; };
 		BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB9A22B21B0D8DC300AFE906 /* VESettingModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VESettingModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9A22B31B0D8DC300AFE906 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -174,8 +171,6 @@
 				BB9A22A31B0D8DC300AFE906 /* VEAppDelegate.h */,
 				BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */,
 				BB9A22A61B0D8DC300AFE906 /* Setting.storyboard */,
-				BB9A22A91B0D8DC300AFE906 /* VEViewController.h */,
-				BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */,
 				BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */,
 				BB9A229B1B0D8DC300AFE906 /* Supporting Files */,
 			);
@@ -349,7 +344,6 @@
 				BB8E73441B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m in Sources */,
 				BB8E734B1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m in Sources */,
 				BB8E73431B0DB8ED00BA0E71 /* DKAboutUsViewController.m in Sources */,
-				BB9A22AB1B0D8DC300AFE906 /* VEViewController.m in Sources */,
 				BB8E73461B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m in Sources */,
 				BB8E73471B0DB8ED00BA0E71 /* DKSettingTableViewController.m in Sources */,
 				BB9A22A51B0D8DC300AFE906 /* VEAppDelegate.m in Sources */,
