@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB8E73431B0DB8ED00BA0E71 /* DKAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E73381B0DB8ED00BA0E71 /* DKAboutUsViewController.m */; };
+		BB8E73441B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E733A1B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m */; };
+		BB8E73451B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E733C1B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.m */; };
+		BB8E73461B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E733E1B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m */; };
+		BB8E73471B0DB8ED00BA0E71 /* DKSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E73401B0DB8ED00BA0E71 /* DKSettingTableViewController.m */; };
+		BB8E73481B0DB8ED00BA0E71 /* DKUpLoadLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E73421B0DB8ED00BA0E71 /* DKUpLoadLogViewController.m */; };
+		BB8E734B1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8E734A1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m */; };
+		BB9A22951B0D8DC300AFE906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22941B0D8DC300AFE906 /* Foundation.framework */; };
+		BB9A22971B0D8DC300AFE906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22961B0D8DC300AFE906 /* CoreGraphics.framework */; };
+		BB9A22991B0D8DC300AFE906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22981B0D8DC300AFE906 /* UIKit.framework */; };
+		BB9A229F1B0D8DC300AFE906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB9A229D1B0D8DC300AFE906 /* InfoPlist.strings */; };
+		BB9A22A11B0D8DC300AFE906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22A01B0D8DC300AFE906 /* main.m */; };
+		BB9A22A51B0D8DC300AFE906 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */; };
+		BB9A22A81B0D8DC300AFE906 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9A22A61B0D8DC300AFE906 /* Setting.storyboard */; };
+		BB9A22AB1B0D8DC300AFE906 /* VEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */; };
+		BB9A22AD1B0D8DC300AFE906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */; };
+		BB9A22B41B0D8DC300AFE906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22B31B0D8DC300AFE906 /* XCTest.framework */; };
+		BB9A22B51B0D8DC300AFE906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22941B0D8DC300AFE906 /* Foundation.framework */; };
+		BB9A22B61B0D8DC300AFE906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9A22981B0D8DC300AFE906 /* UIKit.framework */; };
+		BB9A22BE1B0D8DC300AFE906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB9A22BC1B0D8DC300AFE906 /* InfoPlist.strings */; };
+		BB9A22C01B0D8DC300AFE906 /* VESettingModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9A22BF1B0D8DC300AFE906 /* VESettingModuleTests.m */; };
+		DD8842FF71208E64490ABB45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2372081B113B83CE10452C3F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9A22B71B0D8DC300AFE906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9A22891B0D8DC200AFE906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9A22901B0D8DC300AFE906;
+			remoteInfo = VESettingModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2372081B113B83CE10452C3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9B99A9760172DC4673D32A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BB8E73371B0DB8ED00BA0E71 /* DKAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAboutUsViewController.h; sourceTree = "<group>"; };
+		BB8E73381B0DB8ED00BA0E71 /* DKAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAboutUsViewController.m; sourceTree = "<group>"; };
+		BB8E73391B0DB8ED00BA0E71 /* DKHelpMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHelpMeTableViewController.h; sourceTree = "<group>"; };
+		BB8E733A1B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHelpMeTableViewController.m; sourceTree = "<group>"; };
+		BB8E733B1B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNotificationConfigTableViewController.h; sourceTree = "<group>"; };
+		BB8E733C1B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNotificationConfigTableViewController.m; sourceTree = "<group>"; };
+		BB8E733D1B0DB8ED00BA0E71 /* DKPasswordModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPasswordModifyViewController.h; sourceTree = "<group>"; };
+		BB8E733E1B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPasswordModifyViewController.m; sourceTree = "<group>"; };
+		BB8E733F1B0DB8ED00BA0E71 /* DKSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSettingTableViewController.h; sourceTree = "<group>"; };
+		BB8E73401B0DB8ED00BA0E71 /* DKSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSettingTableViewController.m; sourceTree = "<group>"; };
+		BB8E73411B0DB8ED00BA0E71 /* DKUpLoadLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUpLoadLogViewController.h; sourceTree = "<group>"; };
+		BB8E73421B0DB8ED00BA0E71 /* DKUpLoadLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUpLoadLogViewController.m; sourceTree = "<group>"; };
+		BB8E73491B0DB91E00BA0E71 /* DKDetailHelpMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDetailHelpMeViewController.h; sourceTree = "<group>"; };
+		BB8E734A1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDetailHelpMeViewController.m; sourceTree = "<group>"; };
+		BB9A22911B0D8DC300AFE906 /* VESettingModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESettingModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9A22941B0D8DC300AFE906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB9A22961B0D8DC300AFE906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB9A22981B0D8DC300AFE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB9A229C1B0D8DC300AFE906 /* VESettingModule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VESettingModule-Info.plist"; sourceTree = "<group>"; };
+		BB9A229E1B0D8DC300AFE906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB9A22A01B0D8DC300AFE906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9A22A21B0D8DC300AFE906 /* VESettingModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VESettingModule-Prefix.pch"; sourceTree = "<group>"; };
+		BB9A22A31B0D8DC300AFE906 /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
+		BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
+		BB9A22A71B0D8DC300AFE906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Setting.storyboard; sourceTree = "<group>"; };
+		BB9A22A91B0D8DC300AFE906 /* VEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEViewController.h; sourceTree = "<group>"; };
+		BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEViewController.m; sourceTree = "<group>"; };
+		BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB9A22B21B0D8DC300AFE906 /* VESettingModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VESettingModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9A22B31B0D8DC300AFE906 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB9A22BB1B0D8DC300AFE906 /* VESettingModuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VESettingModuleTests-Info.plist"; sourceTree = "<group>"; };
+		BB9A22BD1B0D8DC300AFE906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB9A22BF1B0D8DC300AFE906 /* VESettingModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESettingModuleTests.m; sourceTree = "<group>"; };
+		D0469FF2780BBB06C46C9EFC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9A228E1B0D8DC300AFE906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9A22971B0D8DC300AFE906 /* CoreGraphics.framework in Frameworks */,
+				BB9A22991B0D8DC300AFE906 /* UIKit.framework in Frameworks */,
+				BB9A22951B0D8DC300AFE906 /* Foundation.framework in Frameworks */,
+				DD8842FF71208E64490ABB45 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9A22AF1B0D8DC300AFE906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9A22B41B0D8DC300AFE906 /* XCTest.framework in Frameworks */,
+				BB9A22B61B0D8DC300AFE906 /* UIKit.framework in Frameworks */,
+				BB9A22B51B0D8DC300AFE906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B81714BE6C911C111150E37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0469FF2780BBB06C46C9EFC /* Pods.debug.xcconfig */,
+				3A9B99A9760172DC4673D32A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB8E73361B0DB8ED00BA0E71 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E73491B0DB91E00BA0E71 /* DKDetailHelpMeViewController.h */,
+				BB8E734A1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m */,
+				BB8E73371B0DB8ED00BA0E71 /* DKAboutUsViewController.h */,
+				BB8E73381B0DB8ED00BA0E71 /* DKAboutUsViewController.m */,
+				BB8E73391B0DB8ED00BA0E71 /* DKHelpMeTableViewController.h */,
+				BB8E733A1B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m */,
+				BB8E733B1B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.h */,
+				BB8E733C1B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.m */,
+				BB8E733D1B0DB8ED00BA0E71 /* DKPasswordModifyViewController.h */,
+				BB8E733E1B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m */,
+				BB8E733F1B0DB8ED00BA0E71 /* DKSettingTableViewController.h */,
+				BB8E73401B0DB8ED00BA0E71 /* DKSettingTableViewController.m */,
+				BB8E73411B0DB8ED00BA0E71 /* DKUpLoadLogViewController.h */,
+				BB8E73421B0DB8ED00BA0E71 /* DKUpLoadLogViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BB9A22881B0D8DC200AFE906 = {
+			isa = PBXGroup;
+			children = (
+				BB9A229A1B0D8DC300AFE906 /* VESettingModule */,
+				BB9A22B91B0D8DC300AFE906 /* VESettingModuleTests */,
+				BB9A22931B0D8DC300AFE906 /* Frameworks */,
+				BB9A22921B0D8DC300AFE906 /* Products */,
+				4B81714BE6C911C111150E37 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9A22921B0D8DC300AFE906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A22911B0D8DC300AFE906 /* VESettingModule.app */,
+				BB9A22B21B0D8DC300AFE906 /* VESettingModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9A22931B0D8DC300AFE906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A22941B0D8DC300AFE906 /* Foundation.framework */,
+				BB9A22961B0D8DC300AFE906 /* CoreGraphics.framework */,
+				BB9A22981B0D8DC300AFE906 /* UIKit.framework */,
+				BB9A22B31B0D8DC300AFE906 /* XCTest.framework */,
+				2372081B113B83CE10452C3F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB9A229A1B0D8DC300AFE906 /* VESettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				BB8E73361B0DB8ED00BA0E71 /* src */,
+				BB9A22A31B0D8DC300AFE906 /* VEAppDelegate.h */,
+				BB9A22A41B0D8DC300AFE906 /* VEAppDelegate.m */,
+				BB9A22A61B0D8DC300AFE906 /* Setting.storyboard */,
+				BB9A22A91B0D8DC300AFE906 /* VEViewController.h */,
+				BB9A22AA1B0D8DC300AFE906 /* VEViewController.m */,
+				BB9A22AC1B0D8DC300AFE906 /* Images.xcassets */,
+				BB9A229B1B0D8DC300AFE906 /* Supporting Files */,
+			);
+			path = VESettingModule;
+			sourceTree = "<group>";
+		};
+		BB9A229B1B0D8DC300AFE906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A229C1B0D8DC300AFE906 /* VESettingModule-Info.plist */,
+				BB9A229D1B0D8DC300AFE906 /* InfoPlist.strings */,
+				BB9A22A01B0D8DC300AFE906 /* main.m */,
+				BB9A22A21B0D8DC300AFE906 /* VESettingModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB9A22B91B0D8DC300AFE906 /* VESettingModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A22BF1B0D8DC300AFE906 /* VESettingModuleTests.m */,
+				BB9A22BA1B0D8DC300AFE906 /* Supporting Files */,
+			);
+			path = VESettingModuleTests;
+			sourceTree = "<group>";
+		};
+		BB9A22BA1B0D8DC300AFE906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9A22BB1B0D8DC300AFE906 /* VESettingModuleTests-Info.plist */,
+				BB9A22BC1B0D8DC300AFE906 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9A22901B0D8DC300AFE906 /* VESettingModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9A22C31B0D8DC300AFE906 /* Build configuration list for PBXNativeTarget "VESettingModule" */;
+			buildPhases = (
+				C13AAFC521C280DEA32CCB02 /* Check Pods Manifest.lock */,
+				BB9A228D1B0D8DC300AFE906 /* Sources */,
+				BB9A228E1B0D8DC300AFE906 /* Frameworks */,
+				BB9A228F1B0D8DC300AFE906 /* Resources */,
+				23E4841BCEE89294552D801C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VESettingModule;
+			productName = VESettingModule;
+			productReference = BB9A22911B0D8DC300AFE906 /* VESettingModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9A22B11B0D8DC300AFE906 /* VESettingModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9A22C61B0D8DC300AFE906 /* Build configuration list for PBXNativeTarget "VESettingModuleTests" */;
+			buildPhases = (
+				BB9A22AE1B0D8DC300AFE906 /* Sources */,
+				BB9A22AF1B0D8DC300AFE906 /* Frameworks */,
+				BB9A22B01B0D8DC300AFE906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9A22B81B0D8DC300AFE906 /* PBXTargetDependency */,
+			);
+			name = VESettingModuleTests;
+			productName = VESettingModuleTests;
+			productReference = BB9A22B21B0D8DC300AFE906 /* VESettingModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9A22891B0D8DC200AFE906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cyyun;
+				TargetAttributes = {
+					BB9A22B11B0D8DC300AFE906 = {
+						TestTargetID = BB9A22901B0D8DC300AFE906;
+					};
+				};
+			};
+			buildConfigurationList = BB9A228C1B0D8DC200AFE906 /* Build configuration list for PBXProject "VESettingModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9A22881B0D8DC200AFE906;
+			productRefGroup = BB9A22921B0D8DC300AFE906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9A22901B0D8DC300AFE906 /* VESettingModule */,
+				BB9A22B11B0D8DC300AFE906 /* VESettingModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9A228F1B0D8DC300AFE906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9A22AD1B0D8DC300AFE906 /* Images.xcassets in Resources */,
+				BB9A229F1B0D8DC300AFE906 /* InfoPlist.strings in Resources */,
+				BB9A22A81B0D8DC300AFE906 /* Setting.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9A22B01B0D8DC300AFE906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9A22BE1B0D8DC300AFE906 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E4841BCEE89294552D801C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13AAFC521C280DEA32CCB02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9A228D1B0D8DC300AFE906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8E73481B0DB8ED00BA0E71 /* DKUpLoadLogViewController.m in Sources */,
+				BB9A22A11B0D8DC300AFE906 /* main.m in Sources */,
+				BB8E73441B0DB8ED00BA0E71 /* DKHelpMeTableViewController.m in Sources */,
+				BB8E734B1B0DB91E00BA0E71 /* DKDetailHelpMeViewController.m in Sources */,
+				BB8E73431B0DB8ED00BA0E71 /* DKAboutUsViewController.m in Sources */,
+				BB9A22AB1B0D8DC300AFE906 /* VEViewController.m in Sources */,
+				BB8E73461B0DB8ED00BA0E71 /* DKPasswordModifyViewController.m in Sources */,
+				BB8E73471B0DB8ED00BA0E71 /* DKSettingTableViewController.m in Sources */,
+				BB9A22A51B0D8DC300AFE906 /* VEAppDelegate.m in Sources */,
+				BB8E73451B0DB8ED00BA0E71 /* DKNotificationConfigTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9A22AE1B0D8DC300AFE906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9A22C01B0D8DC300AFE906 /* VESettingModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9A22B81B0D8DC300AFE906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9A22901B0D8DC300AFE906 /* VESettingModule */;
+			targetProxy = BB9A22B71B0D8DC300AFE906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9A229D1B0D8DC300AFE906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9A229E1B0D8DC300AFE906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB9A22A61B0D8DC300AFE906 /* Setting.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9A22A71B0D8DC300AFE906 /* Base */,
+			);
+			name = Setting.storyboard;
+			sourceTree = "<group>";
+		};
+		BB9A22BC1B0D8DC300AFE906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9A22BD1B0D8DC300AFE906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9A22C11B0D8DC300AFE906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB9A22C21B0D8DC300AFE906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9A22C41B0D8DC300AFE906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0469FF2780BBB06C46C9EFC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESettingModule/VESettingModule-Prefix.pch";
+				INFOPLIST_FILE = "VESettingModule/VESettingModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB9A22C51B0D8DC300AFE906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9B99A9760172DC4673D32A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESettingModule/VESettingModule-Prefix.pch";
+				INFOPLIST_FILE = "VESettingModule/VESettingModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB9A22C71B0D8DC300AFE906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VESettingModule.app/VESettingModule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESettingModule/VESettingModule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VESettingModuleTests/VESettingModuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB9A22C81B0D8DC300AFE906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VESettingModule.app/VESettingModule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESettingModule/VESettingModule-Prefix.pch";
+				INFOPLIST_FILE = "VESettingModuleTests/VESettingModuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9A228C1B0D8DC200AFE906 /* Build configuration list for PBXProject "VESettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9A22C11B0D8DC300AFE906 /* Debug */,
+				BB9A22C21B0D8DC300AFE906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9A22C31B0D8DC300AFE906 /* Build configuration list for PBXNativeTarget "VESettingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9A22C41B0D8DC300AFE906 /* Debug */,
+				BB9A22C51B0D8DC300AFE906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9A22C61B0D8DC300AFE906 /* Build configuration list for PBXNativeTarget "VESettingModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9A22C71B0D8DC300AFE906 /* Debug */,
+				BB9A22C81B0D8DC300AFE906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9A22891B0D8DC200AFE906 /* Project object */;
+}
